@@ -1,0 +1,24 @@
+{
+  "name": "Rating",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "value": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "movie": {
+      "type": "belongsTo",
+      "model": "Movie",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,6 @@
+version: '3'
+services:
+  raas_demo_mongo:
+    image: mongo
+    ports:
+    - "27027:27017"

@@ -1,0 +1,7 @@
+{
+  "parser": "babel-eslint",
+  "extends": "loopback",
+  "rules": {
+    "object-curly-spacing": 0
+  }
+}

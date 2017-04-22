@@ -1,0 +1,28 @@
+{
+  "name": "Movie",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": false,
+  "http": {
+    "path": "/movies"
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "genres": {
+      "type": "hasAndBelongsToMany",
+      "model": "Genre",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
