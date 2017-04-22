@@ -1,5 +1,5 @@
 {
-  "name": "admin-on-rest-demo",
+  "name": "recommender-aas-webapp",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -36,6 +36,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
-  },
-  "homepage": "http://marmelab.com/admin-on-rest-demo/"
+  }
 }
